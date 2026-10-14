@@ -1,0 +1,15 @@
+kind: wasmer.io/App.v0
+name: helpdesk-api
+package: .
+debug: false
+env:
+  APP_ENV: production
+  APP_DEBUG: "false"
+  APP_KEY: "base64:fu2dDs6Fek9YZ++QAzHI9uKa0A8gENQ8CRNNwu+WRWw="
+  LOG_CHANNEL: stderr
+  CACHE_STORE: file
+  DB_CONNECTION: pgsql
+  DB_URL: "postgresql://neondb_owner:npg_wJ94fKbEqCIr@ep-fancy-night-a1tjkseg.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+  CORS_ALLOWED_ORIGINS: "http://localhost:5173"
+owner: kiandrei
+app_id: da_Ko6IotJUDEky
